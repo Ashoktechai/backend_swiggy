@@ -32,5 +32,5 @@ app.use("/product", productRoutes);
 app.use("/uploads", express.static("uploads"));
 
 app.use("/", (req, res) => {
-  res.send("<h1> Welcome to Home");
+  res.send("Welcome to Home");
 });
